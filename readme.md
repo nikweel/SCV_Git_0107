@@ -119,10 +119,18 @@ git branch
 ```
 git branch branch_name
 ```
+3. Удалить ветку (После merge)
+```
+git branch -d branch_name
+```
+4. Удалить ветку (Принудительно)
+```
+git branch -D branch_name
+```
 
 ## 12. Слияние веток
 
-1. Слить ветки можно командой
+1. Слить ветки можно командой (в текущую ветку добавит информацию из ветки branch_name)
 ```
 git merge branch_name
 ```
