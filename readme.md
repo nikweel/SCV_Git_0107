@@ -97,9 +97,9 @@ git log --oneline
 ```
 git checkout xxxx
 ```
-2. Перейти в ветку мастер (на последний коммит ветки мастер)
+2. Перейти в ветку name (на последний коммит ветки name)
 ```
-git checkout master
+git checkout name
 ```
 
 ## 10. Показать изменения с последнего коммита (diff)
