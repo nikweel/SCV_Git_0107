@@ -97,9 +97,9 @@ git log --oneline
 ```
 git checkout xxxx
 ```
-2. Перейти в ветку name (на последний коммит ветки name)
+2. Перейти в ветку branch_name (на последний коммит ветки branch_name)
 ```
-git checkout name
+git checkout branch_name
 ```
 
 ## 10. Показать изменения с последнего коммита (diff)
@@ -117,10 +117,17 @@ git branch
 ```
 2. Создать новую ветку
 ```
-git branch name
+git branch branch_name
 ```
 
-## 12. Справка о команде
+## 12. Слияние веток
+
+1. Слить ветки можно командой
+```
+git merge branch_name
+```
+
+## 13. Справка о команде
 
 1. Справка о команде xxx
 ```
