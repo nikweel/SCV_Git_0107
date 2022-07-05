@@ -146,4 +146,4 @@ git merge branch_name
 1. Справка о команде xxx
 ```
 git xxx -h
-``
+```
